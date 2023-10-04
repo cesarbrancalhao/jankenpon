@@ -1,2 +1,3 @@
 # jankenpon
-Rock paper scissors game created with HTML, CSS and JS.
+Simple rock paper scissors game created with HTML and JavaScript.
+Play: 
