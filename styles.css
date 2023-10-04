@@ -1,0 +1,155 @@
+:root {
+    --primary-dark: #010611;
+    --primary-light: #21a6b2;
+    --secondary-white: #faf7f7;
+    --hover: #262b3f;
+    --active: #44444f;
+    --primary-yellow: #000000;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    background-color: var(--primary-light);
+    color: var(--primary-dark);
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    margin-bottom: 100px;
+}
+
+button {
+    border: none;
+    color: inherit;
+    font-family: inherit;
+    font-size: inherit;
+    outline: none;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    padding: 16vh 0 1vh;
+    background-color: var(--primary-light);
+}
+
+.title {
+    font-size: 3em;
+    color: var(--primary-yellow);
+}
+
+.main {
+    margin-top: 0;
+    text-align: center;
+}
+
+.scoreboard {
+    margin-bottom: 15px;
+}
+
+.score-info {
+    font-size: 32px;
+}
+
+.score-message {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.scores-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 400px;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+.score-box {
+    width: 170px;
+}
+
+.score {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.btn {
+    border-radius: 10px;
+    background-color: var(--secondary-white);
+}
+
+.btn-square {
+    width: 160px;
+    height: 160px;
+}
+
+.btn:hover {
+    background-color: var(--hover);
+    cursor: pointer;
+}
+
+.btn:active {
+    background-color: var(--active);
+}
+
+.sign {
+    font-size: 80px;
+    margin-bottom: 10px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+    padding: 10px;
+    color: var(--primary-dark);
+    font-size: 1em;
+}
+
+@media (max-width: 550px) {
+    .title {
+        font-size: 18px;
+    }
+
+    .score-info {
+        font-size: 26px;
+    }
+
+    .buttons {
+        gap: 10px;
+    }
+
+    .btn-square {
+        width: 100px;
+        height: 100px;
+    }
+
+    .sign {
+        font-size: 50px;
+    }
+}

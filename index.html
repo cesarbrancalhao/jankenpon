@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+    <title>Jankenpon</title>
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="./img/icon.png">
+</head>
+<body>
+<header class="header">
+    <h1 class="title">ROCK PAPER SCISSORS</h1>
+</header>
+<main class="main">
+    <div class="scoreboard">
+        <h2 class="score-info" id="scoreInfo">Choose your weapon</h2>
+        <h3 class="score-message" id="scoreMessage"></h3>
+        <div class="scores-container">
+            <div class="score-box">
+                <div class="sign" id="playerChoice">❔</div>
+                <p class="score" id="playerScore">Player: 0</p>
+            </div>
+            <div class="score-box">
+                <div class="sign" id="computerChoice">❔</div>
+                <p class="score" id="computerScore">Computer: 0</p>
+            </div>
+        </div>
+    </div>
+    <div class="buttons">
+        <button class="btn btn-square" id="rockBtn">
+            <div class="sign">✊</div>
+        </button>
+        <button class="btn btn-square" id="paperBtn">
+            <div class="sign">✋</div>
+        </button>
+        <button class="btn btn-square" id="scissorsBtn">
+            <div class="sign">✌</div>
+        </button>
+    </div>
+</main>
+<footer class="footer">
+    <p>
+        Copyright © 2023 M. César Brancalhão.
+    </p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
