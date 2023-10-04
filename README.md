@@ -1,3 +1,6 @@
 # jankenpon
+<p>
 Simple rock paper scissors game created with HTML and JavaScript.
-Play: 
+</p><p>
+Play: https://cesarbrancalhao.github.io/jankenpon/
+</p>
