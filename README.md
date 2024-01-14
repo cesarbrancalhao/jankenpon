@@ -1,8 +1,9 @@
 # jankenpon
-<p>
+
 Simple rock paper scissors game created with CSS and JavaScript.
-</p><p>
-Play: https://cesarbrancalhao.github.io/jankenpon/
-</p>
+  
+Play [live](https://cesarbrancalhao.github.io/jankenpon/):
 
 ![Alt text](https://github.com/cesarbrancalhao/jankenpon/blob/main/img/std.png?raw=true)
+
+Main Odin repository: [Odin Project](https://github.com/cesarbrancalhao/OdinProject).
